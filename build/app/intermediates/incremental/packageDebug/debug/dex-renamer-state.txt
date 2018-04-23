@@ -1,0 +1,4 @@
+#Mon Apr 23 13:48:58 ICT 2018
+base.0=/Users/skulltree/Documents/TwinSynergyProjects/crossPlatform/manaqueue/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
