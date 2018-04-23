@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
-  _onPress() {
+  void _onPress() {
     print("Camera Tapped");
   }
   @override
