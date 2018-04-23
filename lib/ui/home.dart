@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
-
+import 'customBtn.dart';
 class Home extends StatelessWidget {
+  final String title;
+  final String message;
+  Home({Key,key,this.title,this.message}) : super(key:key);
+
   void _onPress() {
     print("Camera Tapped");
   }
@@ -10,7 +14,7 @@ class Home extends StatelessWidget {
     return new Scaffold(
       appBar: new AppBar(
         backgroundColor: Colors.lightGreen.shade700,
-        title: new Text("KICKDUDES"),
+        title: new Text(title),
         actions: <Widget>[
           new IconButton(
             icon: new Icon(Icons.send), 
@@ -40,6 +44,7 @@ class Home extends StatelessWidget {
               child: new Text("Button"),
               onTap: () => _onPress(),
             ),
+            new CustomButton(message: message,),
           ],
         ),
       ),
